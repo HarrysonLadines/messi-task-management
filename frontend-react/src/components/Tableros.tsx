@@ -125,7 +125,7 @@ export const Tableros: React.FC<TablerosProps> = ({
         onClick={() => setModalAsignarAbierto(true)}
         className={`px-6 py-3 rounded shadow-md ${theme === "dark" ? "bg-orange-600 hover:bg-orange-700 text-white" : "bg-orange-300 hover:bg-orange-400 text-black"}`}
       >
-        🤫
+        Permisos 🤫
       </button>
     </nav>
 
