@@ -1,6 +1,9 @@
 # Messi Task Management 
 
-A full-stack task management application built with a REST API architecture and role-based access control (RBAC). It allows users to manage boards, tasks, and collaborative permissions securely using JWT authentication.
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-0078D4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://messi-task-management.vercel.app)
+
+An academic full-stack task management application built to master REST API architecture and role-based access control (RBAC). It allows users to manage boards, tasks, and collaborative permissions securely using JWT authentication. 
+> Note: Developed as a learning project.
 
 ---
 
@@ -9,7 +12,7 @@ A full-stack task management application built with a REST API architecture and 
 - **Backend:** Node.js, Express, Prisma ORM (TypeScript)
 - **Frontend:** React (TypeScript)
 - **Authentication:** JWT (JSON Web Tokens)
-- **Database:** SQLite
+- **Database:** PostgreSQL (Hosted on Neon)
 - **Package Manager:** npm
 
 ---
@@ -53,8 +56,8 @@ touch .env
 Add the following variables:
 
 ```env
-DATABASE_URL="file:./prisma/dev.db"
-JWT_SECRET=your_super_secret_key
+DATABASE_URL="postgresql://user:password@hostname/dbname?sslmode=require"
+JWT_SECRET="tu_secreto_super_pro"
 ```
 
 ⚠️ Make sure `.env` is included in `.gitignore` and never committed.
@@ -157,15 +160,15 @@ Authorization: Bearer <YOUR_TOKEN>
 
 ###  Authentication
 
-- `POST /api/register` → Register a new user  
-- `POST /api/login` → Login and receive a JWT  
+- `POST /api/users/register` → Register a new user  
+- `POST /api/users/login` → Login and receive a JWT  
 
 ---
 
 ###  User Configuration
 
-- `GET /api/configuracion` → Get authenticated user settings  
-- `PUT /api/configuracion` → Update user settings (Theme, intervals, etc.)  
+- `GET /api/configuraciones` → Get authenticated user settings  
+- `PUT /api/configuraciones` → Update user settings (Theme, intervals, etc.)  
 
 ---
 
