@@ -2,18 +2,18 @@
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-0078D4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://messi-task-management.vercel.app)
 
-An academic full-stack task management application built to master REST API architecture and role-based access control (RBAC). It allows users to manage boards, tasks, and collaborative permissions securely using JWT authentication. 
+Task application with JWT authentication and role-based permissions. Focused on collaborative board management and mastering REST APIs with TypeScript.
 > Note: Developed as a learning project.
 
 ---
 
-## 🛠 Technologies Used
+## 🛠 Stack
 
-- **Backend:** Node.js, Express, Prisma ORM (TypeScript)
-- **Frontend:** React (TypeScript)
-- **Authentication:** JWT (JSON Web Tokens)
-- **Database:** PostgreSQL (Hosted on Neon)
-- **Package Manager:** npm
+- **Backend:** Node.js, Express, Prisma
+- **Frontend:** React
+- **Database:** PostgreSQL (Neon)
+- **Auth:** JWT
+- **Language:** TypeScript
 
 ---
 
@@ -27,16 +27,18 @@ An academic full-stack task management application built to master REST API arch
 
 ---
 
-
 ## 📋 Prerequisites
 
+Before running the project, make sure you have installed:
+
 - **Node.js** (v16 or higher recommended)
-- **npm** (comes with Node)
-- A code editor (VS Code recommended)
+- **npm** (comes with Node.js)
+- **VS Code** or another code editor
 - *(Optional)* **Postman** for API testing
 
 ---
-## Installation and Setup
+
+## 🚦 Running  the project
 
 ### 1️⃣ Backend Setup
 
@@ -119,22 +121,6 @@ Runs by default at:
 2. Log in using the test credentials (see below) or register a new account.
 3. Create and manage boards and tasks.
 4. Share boards with other users by assigning roles.
-
----
-
-##  Test Data
-
-To test the application, you can use the following accounts:
-
-### 👤 User 1
-- **Email:** testgestor@x.com  
-- **Password:** 1234  
-
-### 👤 User 2
-- **Email:** test2gestor@y.com  
-- **Password:** 2345  
-
-⚠️ These accounts are for development/testing purposes only.
 
 ---
 
