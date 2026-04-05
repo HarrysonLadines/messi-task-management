@@ -1,7 +1,5 @@
 # Messi Task Management 
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-0078D4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://messi-task-management.vercel.app)
-
 Task application with JWT authentication and role-based permissions (RBAC).
 
 > This was a university project focused on REST API architecture and security.
